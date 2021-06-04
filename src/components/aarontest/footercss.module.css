@@ -1,0 +1,54 @@
+footer
+{
+  background:#000;
+  padding:4% 0;
+}
+footer ul
+{
+  margin:0;
+  padding:0 0 0 ;
+}
+footer ul li,.taber
+
+{
+ color:#fff;
+  list-style:none;
+  margin-bottom:10px;
+  font-size:16px
+}
+@media (max-width:723px)
+{
+.taber
+{
+border-bottom:1px solid #ccc;
+padding-bottom:10px;
+cursor:auto;
+}
+.taber.collapsed:after {
+    content: "+";
+    float: right;
+    font-size: 22px;
+    margin-right: 10px;
+}
+.taber:after {
+    content: "-";
+    float: right;
+    font-size: 22px;
+    margin-right: 10px;
+}
+.taber {
+    border-bottom: 1px solid #ccc;
+cursor: pointer;    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.panel-collapse{
+padding-left: 15px;
+    padding-right: 15px;
+}
+footer >.container
+{
+padding-left: 0;
+    padding-right: 0px;
+}
+}
